@@ -1,7 +1,7 @@
 ---
 title: Ruler of the Ruler
 date: 2025-08-08T00:00:00
-medium: 디지털 프린트, 중철 제본 Digital Print, Saddle Stitch Binding
+medium: 디지털 프린트, 중철 제본  Digital Print, Saddle Stitch Binding
 dimensions: 210× 297
 pages: 40
 description_kr: |-
