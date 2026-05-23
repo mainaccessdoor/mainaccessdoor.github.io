@@ -1,7 +1,7 @@
 ---
 title: ≪british≫ Poster
 date: 2026-04-25T12:00:00
-medium: Digital Print
+medium: 디지털 프린트 Digital Print
 dimensions: 420×594
 pages: null
 description_kr: |-
