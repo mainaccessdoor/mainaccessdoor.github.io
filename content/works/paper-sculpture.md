@@ -1,7 +1,7 @@
 ---
 title: Marching Dots
 date: 2026-03-02T14:00:00
-medium: Image Making
+medium: 이미지 메이킹 Image Making
 dimensions: ''
 pages: 0
 description_kr: Marching Dots는 종이 위에 점을 찍는 작업이 아니라, 점을 ‘행진’시키는 규칙을 만드는 일이다. 스탬프의 반복이 리듬을 만들고, 종이는 그 리듬에 반응해 접히고 휘며 형태를 만들어낸다. 인쇄라는 평면의 제스처가 조형의 차원으로 이동하는 과정 자체가 작업의 본체가 된다.
