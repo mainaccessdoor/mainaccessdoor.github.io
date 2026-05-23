@@ -38,44 +38,44 @@ collections:
     fields:
       - name: title
         label: 제목
-        require: true
+        required: true
 
       - name: date
         label: 날짜
         widget: datetime
-        require: true
+        required: true
 
       - name: medium
         label: 제작방식 및 재료
-        require: false
+        required: false
 
       - name: dimensions
         label: 크기
-        require: false
+        required: false
 
       - name: pages
         label: 페이지 수
         widget: number
-        require: false
+        required: false
 
       - name: description_kr
         label: 국문 설명
         widget: text
-        require: false
+        required: false
 
       - name: description_eng
         label: 영문 설명
         widget: text
-        require: false
+        required: false
 
       - name: thumbnail
         label: 썸네일
         widget: file
         multiple: false
-        require: false
+        required: false
 
       - name: images
         label: 이미지
         widget: file
         multiple: true
-        require: true
+        required: true
