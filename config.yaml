@@ -6,6 +6,7 @@ pluralizeListTitles: false
 enableGitInfo: true
 pygmentsUseClasses: true
 disableHugoGeneratorInject: true
+baseURL: https://mainaccessdoor.com
 
 date:
   locale: ko_KR
