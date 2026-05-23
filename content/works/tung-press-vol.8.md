@@ -1,7 +1,7 @@
 ---
 title: Tung Press Vol.8
 date: 2026-03-29T00:00:00
-medium: '의뢰: 텅프레스, Client: Tung Press'
+medium: '의뢰: 텅프레스 Client: Tung Press'
 dimensions: 148 × 210
 pages: 160
 description_kr: TUNG Vol.08 «Money» 내지 디자인
