@@ -2,7 +2,7 @@
 title: british poster
 date: 2026-04-25T12:00:00
 medium: Digital Print
-dimensions: 420×594(mm)
+dimensions: 420×594
 pages: 0
 description_kr: |-
   ≪british≫의 포스터는 전시의 서문으로 기능하는 글을 전면에 배치한다. 전시가 도트 무늬, 즉, 땡땡(てんてん)이와 숄더 패치처럼 원래는 장식적이거나 부가적 요소, 기능적 요소를 전면에 놓고 제3의 의미를 발생시키듯, 이 포스터 역시 텍스트 안에서 비슷한 방식을 취한다.
