@@ -12,11 +12,14 @@
                     <p>{{ .Date.Format "2006" }}</p>
                     {{ end }} {{ if .Params.medium}}
                     <p>{{ .Params.medium }}</p>
-                    {{ end }} {{ if or .Params.dimensions .Params.pages }}
+                    {{ end }}{{ if or .Params.dimensions (gt (.Params.pages |
+                    default 0) 0) }}
                     <p>
                         {{ if .Params.dimensions }}
-                        <span>{{ .Params.dimensions }}</span>, {{ end }} {{ if
-                        .Params.pages }}
+                        <span>{{ .Params.dimensions }}</span>
+                        {{ end }} {{ if and .Params.dimensions (gt
+                        (.Params.pages | default 0) 0) }} , {{ end }} {{ if gt
+                        (.Params.pages | default 0) 0 }}
                         <span>{{ .Params.pages }} pages</span>
                         {{ end }}
                     </p>
