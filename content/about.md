@@ -18,9 +18,3 @@
 <p>[MFA] Visual Communication Design, University of Seoul, Korea</p>
 <p>2025</p>
 <p>[BFA] Graphic Design, Kaywon University of Art & Design, Korea<p>
-
-
-<p>2026–</p>
-<p>[MFA] Visual Communication Design, University of Seoul, Korea</p>
-<p>2025</p>
-<p>[BFA] Graphic Design, Kaywon University of Art & Design, Korea<p>
