@@ -2,7 +2,7 @@
 title: Tracing Back
 date: 2024-12-01T00:00:00
 medium: Laser toner printing, Singer Sewing Binding
-dimensions: 210×290(mm)
+dimensions: 210×290
 pages: 60
 description_kr: <역추적하기> 는 수집된 그래픽들의 기원을 거슬러 올라가며, 익숙한 맥락 안에 숨겨진 새로운 해석과 가능성을 탐구한다. 어린아이가 미끄럼틀을 거꾸로 올라가듯, 그래픽의 흐름을 역방향으로 따라가는 과정을 통해, 기존의 질서를 의도적으로 벗어나 예상치 못한 발견과 우연성을 마주한다. 해체된 그래픽들은 본래의 맥락을 벗어나, 새로운 시각적 관계와 서사를 형성하며 각자의 독립성을 드러내는 동시에 상호작용의 가능성을 열어둔다.
 description_eng: This work traces the origins of collected graphics, exploring hidden interpretations and possibilities within familiar contexts. Much like a child climbing a slide backward, it intentionally reverses the natural flow to disrupt existing orders and encounter unexpected discoveries and moments of serendipity. The deconstructed graphics break free from their original contexts, forming new visual relationships and narratives that balance independence with the potential for interaction.
