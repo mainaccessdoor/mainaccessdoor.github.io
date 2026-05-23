@@ -1,5 +1,5 @@
 ---
-title: typethistext Brand Identity Design
+title: typethistext
 date: 2025-09-09T00:00:00
 medium: '작업 범위: 심볼 디자인, 로직 설계, 패키지 디자인 Scope: Symbol Design, Visual Logic Development, Package Design'
 dimensions: ''
