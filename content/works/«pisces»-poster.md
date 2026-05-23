@@ -15,4 +15,6 @@ images:
   - /assets/works/«pisces»-poster/IMG_3778.webp
   - /assets/works/«pisces»-poster/IMG_3800.webp
   - /assets/works/«pisces»-poster/IMG_3805.webp
+  - /assets/works/«pisces»-poster/1-54.webp
+  - /assets/works/«pisces»-poster/1-52.webp
 ---
