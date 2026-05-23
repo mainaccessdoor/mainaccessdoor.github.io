@@ -2,7 +2,7 @@ backend:
   name: github
   repo: mainaccessdoor/mainaccessdoor.github.io
   branch: main
-  base_url: https://sveltia-auth.mainaccessdoor.workers.dev
+  base_url: https://sveltia-cms-auth.mainaccessdoor.workers.dev
 
 # backend:
 #   name: test-repo
