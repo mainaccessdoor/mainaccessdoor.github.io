@@ -58,10 +58,15 @@ collections:
         widget: number
         require: false
 
-      - name: description
-        label: 설명
+      - name: description_kr
+        label: 국문 설명
         widget: text
-        require: true
+        require: false
+
+      - name: description_eng
+        label: 영문 설명
+        widget: text
+        require: false
 
       - name: thumbnail
         label: 썸네일

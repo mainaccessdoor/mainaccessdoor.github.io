@@ -23,8 +23,10 @@
                         <span>{{ .Params.pages }} pages</span>
                         {{ end }}
                     </p>
-                    {{ end }}<br />{{ if .Params.description }}
-                    <p>{{ .Params.description }}</p>
+                    {{ end }}<br />{{ if .Params.description_kr }}
+                    <p>{{ .Params.description.kr }}</p>
+                    {{ end }} {{ if .Params.description_eng }}
+                    <p>{{ .Params.description_eng }}</p>
                     {{ end }} {{ .Content }}
                 </div>
                 <div class="right">
