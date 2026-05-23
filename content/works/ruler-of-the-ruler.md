@@ -10,8 +10,8 @@ description_kr: |-
 description_eng: Ruler of the Ruler uses 26 collected rulers as experimental material, treating what was once a measuring tool as a sculptural resource. By assembling and arranging the rulers according to their physical structures, the work attempts to reinterpret the idea of a “standard.” The book is composed of 34 series. Each series begins from a ruler’s form or use and is developed as an independent work, yet the rulers reappear across different scenes—repeated or transformed—creating loose but organic connections between the works. The publication follows the ISO 216 A4 format. Using the document page as its working ground, the work introduces formal interventions such as overlap, misalignment, and distortion. The maker sets standards and follows them, while repeatedly shaking and rebuilding them. The rulers are printed at 1:1 scale, allowing the reader to place objects on the page and measure them directly.
 thumbnail: /assets/works/ruler-of-the-ruler/1.webp
 images:
+  - /assets/works/ruler-of-the-ruler/panel.webp
   - /assets/works/ruler-of-the-ruler/panel11.webp
-  - /assets/works/ruler-of-the-ruler/panel9.webp
   - /assets/works/ruler-of-the-ruler/panel2.webp
   - /assets/works/ruler-of-the-ruler/panel3.webp
   - /assets/works/ruler-of-the-ruler/panel4.webp
@@ -19,4 +19,5 @@ images:
   - /assets/works/ruler-of-the-ruler/panel6.webp
   - /assets/works/ruler-of-the-ruler/panel7.webp
   - /assets/works/ruler-of-the-ruler/panel10.webp
+  - /assets/works/ruler-of-the-ruler/panel9.webp
 ---
