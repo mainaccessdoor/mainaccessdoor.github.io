@@ -10,12 +10,13 @@ description: |-
   이 패턴은 이후 다른 매체와의 배치 관계를 이루거나, 다른 이미지 위에 중첩되어 관계를 맺으면서 제3의 의미를 연속적으로 생성할 수 있다.
 
 
+
   The poster foregrounds the exhibition’s preface. Just as the exhibition brings decorative or functional elements such as polka dots and shoulder patches to the front to produce a third meaning, the poster adopts a similar strategy within the text itself.
   Instead of emphasizing key words, the emphasis marks are placed on grammatical particles—elements that usually remain unnoticed while supporting the sentence. In this way, the text becomes not only a preface but also a polka-dot-like pattern, one that can overlap with other images and enter into new relationships with other media to generate further meanings.
 thumbnail: /assets/works/british-poster/최종.webp
 images:
+  - /assets/works/british-poster/스캔 1.webp
   - /assets/works/british-poster/22.webp
   - /assets/works/british-poster/sns 발행(검정배경)2.webp
-  - /assets/works/british-poster/스캔 1.webp
   - /assets/works/british-poster/스캔.webp
 ---
