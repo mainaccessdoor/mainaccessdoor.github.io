@@ -1,0 +1,76 @@
+backend:
+  name: github
+  repo: booklice/booklice.github.io
+  branch: main
+  base_url: https://sveltia-auth.youngjo.workers.dev
+
+# backend:
+#   name: test-repo
+
+logo:
+  src: ../assets/logo.jpg
+  show_in_header: true
+
+app_title: mainaccessdoor
+
+media_folder: /static/assets
+public_folder: /assets
+
+media_libraries:
+  default:
+    config:
+      transformations:
+        raster_image:
+          format: webp
+          quality: 90
+          width: 1600
+          height: 1600
+        svg:
+          optimize: true
+
+collections:
+  - name: works # Used in routes, e.g., /admin/collections/post
+    label: Works # Used in the UI
+    folder: /content/works # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    media_folder: "{{media_folder}}/works/{{slug}}"
+    public_folder: "{{public_folder}}/works/{{slug}}"
+    fields:
+      - name: title
+        label: 제목
+        require: true
+
+      - name: date
+        label: 날짜
+        widget: datetime
+        require: true
+
+      - name: medium
+        label: 제작방식 및 재료
+        require: false
+
+      - name: dimensions
+        label: 크기
+        require: false
+
+      - name: pages
+        label: 페이지 수
+        widget: number
+        require: false
+
+      - name: description
+        label: 설명
+        widget: text
+        require: true
+
+      - name: thumbnail
+        label: 썸네일
+        widget: file
+        multiple: false
+        require: false
+
+      - name: images
+        label: 이미지
+        widget: file
+        multiple: true
+        require: true

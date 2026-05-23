@@ -1,0 +1,361 @@
+@font-face {
+    font-family: "Director";
+    src: url("/fonts/Director-Light.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Director";
+    src: url("/fonts/Director-Regular.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Director";
+    src: url("/fonts/Director-Bold.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "ShinMyungjo";
+    src: url("../fonts/SM3신신명조.woff2") format("woff2");
+    font-display: block;
+    font-weight: 300;
+}
+
+::-moz-selection {
+    background: black;
+    color: white;
+}
+
+::selection {
+    background: black;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Director", "ShinMyungjo", serif;
+    font-weight: 300;
+    font-size: clamp(10px, 0.8vw, 15px);
+    line-height: 1.39;
+    letter-spacing: -0.046em;
+    word-spacing: -0.092em;
+    /*font-size: 13px;
+    font-weight: 300;
+    line-height: 1.39;
+    letter-spacing: -0.6px;
+    word-spacing: -1.2px;*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    background: white;
+}
+
+.container {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 18px 3px 18px 3px;
+    gap: 13px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+nav {
+    height: 100%;
+    grid-column: span 2;
+    background: transparent;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.title a {
+    text-decoration: underline;
+}
+
+.title a:hover {
+    text-decoration: none;
+}
+
+.menus {
+    position: sticky;
+    top: 0px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-column: span 10;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 13px;
+}
+
+.container.works > main,
+.container.contact > main {
+    grid-column: span 10;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.container.about > main {
+    grid-column: span 5;
+}
+
+.works-ul {
+    padding-left: 0;
+}
+
+.container.about main {
+    grid-template-columns: none;
+}
+
+.container .left {
+    position: sticky;
+    top: 0px;
+    height: calc(100vh - 36px);
+    grid-column: span 3;
+}
+
+.container .right {
+    grid-column: 5 / span 7;
+}
+
+.container.works .left {
+    grid-column: span 3;
+}
+
+.container.works .right {
+    position: relative;
+    height: 100%;
+    grid-column: 5 / span 7;
+}
+
+.container .right .images img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.container .right .thumbnail img {
+    opacity: 0;
+    width: auto;
+    max-width: 100%;
+    max-height: calc(100vh - 36px);
+    object-fit: contain;
+}
+
+.container .right .thumbnail img.show {
+    opacity: 1;
+}
+
+.big-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.big-image > img {
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        gap: 8px;
+    }
+
+    main {
+        gap: 8px;
+    }
+
+    .container.works > main,
+    .container.contact > main {
+        grid-column: span 10;
+    }
+
+    .container.about > main {
+        grid-column: span 5;
+        grid-template-columns: none;
+    }
+
+    .left {
+        grid-column: span 4;
+    }
+
+    .right {
+        grid-column: 6 / span 9;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        gap: 8px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        gap: 5px;
+    }
+
+    nav {
+        height: 100%;
+        grid-column: span 2;
+    }
+
+    .menus {
+        position: sticky;
+        top: 0px;
+    }
+
+    main {
+        grid-column: span 9;
+        gap: 5px;
+    }
+
+    .container.about > main {
+        grid-column: span 8;
+    }
+
+    .container.works main {
+        grid-column: span 10;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    html,
+    body {
+        font-size: clamp(9px, 1.2vw, 11px);
+        overflow: hidden;
+    }
+
+    .container {
+        grid-template-areas:
+            "nav"
+            "main";
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: 40px calc(100% - 40px);
+        gap: 0;
+    }
+
+    .container > nav {
+        grid-area: nav;
+        width: 100%;
+        grid-column: span 10;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .menus {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .pages {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    main {
+        grid-area: main;
+        grid-column: span 10;
+        grid-template-columns: repeat(10, 1fr);
+    }
+
+    .container.about > main,
+    .container.contact > main {
+        grid-column: span 10;
+    }
+
+    .container .left {
+        grid-column: span 10;
+        height: 100%;
+    }
+
+    .container .right {
+        grid-column: span 5;
+        display: none;
+    }
+
+    .container.works .left,
+    .container.works .right {
+        grid-column: span 5;
+        overflow-y: scroll;
+        position: fixed;
+        top: 0;
+        /*width: calc(50% - 6px);*/
+        padding-top: 58px;
+        scrollbar-width: none;
+    }
+
+    .container.works .left {
+        width: calc(40% - 5px);
+        left: 3px;
+    }
+
+    .container.works .right {
+        width: calc(60% - 5px);
+        right: 3px;
+        display: block;
+    }
+
+    .container.works .left :last-child {
+        margin-bottom: 84px;
+    }
+
+    .container.works .right .images:last-child {
+        margin-bottom: 84px;
+    }
+}

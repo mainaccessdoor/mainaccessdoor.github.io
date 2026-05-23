@@ -1,0 +1,43 @@
+title: mainaccessdoor
+languageCode: en-us
+titleCaseStyle: none
+capitalizeListTitles: false
+pluralizeListTitles: false
+enableGitInfo: true
+pygmentsUseClasses: true
+disableHugoGeneratorInject: true
+
+date:
+  locale: ko_KR
+
+buildFuture: true
+
+uglyURLs: true
+canonifyURLs: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+  highlight:
+    guessSyntax: true
+    lineNumbersInTable: false
+    tabWidth: 4
+
+menu:
+  main:
+    - identifier: about
+      name: about
+      url: /about.html
+      weight: 1
+
+    - identifier: contact
+      name: contact
+      url: /contact.html
+      weight: 2
+
+    - identifier: works
+      name: works
+      url: /works
+      weight: 3

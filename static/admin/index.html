@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="robots" content="noindex" />
+        <title>CMS</title>
+    </head>
+    <body>
+        <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+        <script>
+            CMS.registerEditorComponent({
+                id: "youtube",
+                label: "YouTube",
+                icon: "youtube_activity",
+                fields: [
+                    { name: "id", label: "ID" },
+                    {
+                        name: "width",
+                        label: "Width",
+                        widget: "number",
+                        valueType: "int",
+                        default: 560,
+                    },
+                    {
+                        name: "height",
+                        label: "Height",
+                        widget: "number",
+                        valueType: "int",
+                        default: 315,
+                    },
+                ],
+                pattern:
+                    /{{< youtube id="(?<id>.*?)"(?: width="(?<width>.*?)" height="(?<height>.*?)")? >}}/m,
+                fromBlock: ({ groups: { id, width, height } = {} }) => ({
+                    id,
+                    width: width ? Number(width) : 560,
+                    height: height ? Number(height) : 315,
+                }),
+                toBlock: ({ id, width = 560, height = 315 }) =>
+                    `{{< youtube id="${id}" width="${width}" height="${height}" >}}`,
+                toPreview: ({ id, width = 560, height = 315 }) =>
+                    id
+                        ? `<iframe src="https://www.youtube-nocookie.com/embed/${id}"
+                  width="${width}" height="${height}" allowfullscreen
+                  allow="autoplay; encrypted-media; picture-in-picture"></iframe>`
+                        : "",
+            });
+        </script>
+    </body>
+</html>

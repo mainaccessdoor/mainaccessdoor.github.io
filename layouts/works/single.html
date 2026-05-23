@@ -1,0 +1,64 @@
+<html lang="en">
+    {{ partial "head.html" . }}
+
+    <body>
+        <div class="container {{ .Section }}">
+            {{ partial "nav.html" . }}
+            <main>
+                <div class="left">
+                    <p>{{ .Title }}</p>
+                    <br />
+                    {{ if and .Date (.Params.showDate | default true) }}
+                    <p>{{ .Date.Format "2006" }}</p>
+                    {{ end }} {{ if .Params.medium}}
+                    <p>{{ .Params.medium }}</p>
+                    {{ end }} {{ if or .Params.dimensions .Params.pages }}
+                    <p>
+                        {{ if .Params.dimensions }}
+                        <span>{{ .Params.dimensions }}</span>, {{ end }} {{ if
+                        .Params.pages }}
+                        <span>{{ .Params.pages }} pages</span>
+                        {{ end }}
+                    </p>
+                    {{ end }}<br />{{ if .Params.description }}
+                    <p>{{ .Params.description }}</p>
+                    {{ end }} {{ .Content }}
+                </div>
+                <div class="right">
+                    <div class="images">
+                        {{ if .Params.images }} {{ range .Params.images }}
+                        <img
+                            src="{{ . }}"
+                            alt="{{ path.BaseName . }}"
+                            loading="lazy"
+                            decoding="async"
+                        />
+                        {{ end }} {{ end }}
+                    </div>
+                </div>
+            </main>
+            <div class="big-image">
+                <img />
+            </div>
+        </div>
+    </body>
+</html>
+
+<script>
+    const images = document.querySelectorAll("img");
+    const bigAss = document.querySelector(".big-image");
+    const bigAssImg = document.querySelector(".big-image img");
+
+    for (let i = 0; i < images.length; i++) {
+        const image = images[i];
+
+        image.addEventListener("click", () => {
+            bigAssImg.src = image.src;
+            bigAss.style.display = "flex";
+        });
+    }
+
+    bigAss.addEventListener("click", () => {
+        bigAss.style.display = "none";
+    });
+</script>

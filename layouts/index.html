@@ -1,0 +1,38 @@
+<html lang="en">
+    {{ partial "head.html" . }}<body><div class="container">
+            {{ partial "nav.html" . }}
+            <main>
+                <div class="left">
+                    <ul class="works-ul">
+                        {{ range sort (where .Site.RegularPages "Section" "works") "Date" "desc" }}
+                        <li data-thumbnail="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+                            <a href="{{ .RelPermalink }}">
+                                {{ .Title }}
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="right">
+                    <div class="thumbnail">
+                        <img class="preview-image" src="" alt="">
+                    </div>
+                </div>
+            </main>
+        </div>
+</html>
+<script>
+const items = document.querySelectorAll(".works-ul li");
+const previewImage = document.querySelector(".preview-image");
+
+items.forEach(item => {
+  item.addEventListener("mouseenter", () => {
+    previewImage.src = item.dataset.thumbnail;
+    previewImage.classList.add("show");
+  });
+
+  item.addEventListener("mouseleave", () => {
+    previewImage.classList.remove("show");
+  });
+});
+</script>
