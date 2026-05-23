@@ -1,5 +1,5 @@
 ---
-title: ≪british≫ poster
+title: ≪british≫ Poster
 date: 2026-04-25T12:00:00
 medium: Digital Print
 dimensions: 420×594
