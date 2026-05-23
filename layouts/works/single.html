@@ -17,9 +17,9 @@
                     <p>
                         {{ if .Params.dimensions }}
                         <span>{{ .Params.dimensions }}(mm)</span>
-                        {{ end }} {{ if and .Params.dimensions (gt
-                        (.Params.pages | default 0) 0) }}, {{ end }} {{ if gt
-                        (.Params.pages | default 0) 0 }}
+                        {{ end }}{{ if and .Params.dimensions (gt (.Params.pages
+                        | default 0) 0) }}, {{ end }}{{ if gt (.Params.pages |
+                        default 0) 0 }}
                         <span>{{ .Params.pages }} pages</span>
                         {{ end }}
                     </p>
