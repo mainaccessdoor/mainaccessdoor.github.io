@@ -13,7 +13,7 @@ images:
   - /assets/works/typethistext-brand-identity-design/IMG_6221 2.webp
   - /assets/works/typethistext-brand-identity-design/IMG_6242 2.webp
   - /assets/works/typethistext-brand-identity-design/IMG_6261 6.webp
+  - /assets/works/typethistext-brand-identity-design/KakaoTalk_Photo_2025-11-26-09-56-50 004.webp
   - /assets/works/typethistext-brand-identity-design/KakaoTalk_Photo_2025-11-26-09-56-50 005.webp
   - /assets/works/typethistext-brand-identity-design/KakaoTalk_Photo_2025-11-26-09-56-50 007.webp
-  - /assets/works/typethistext-brand-identity-design/KakaoTalk_Photo_2025-11-26-09-56-50 004.webp
 ---
