@@ -21,7 +21,7 @@
 
 @font-face {
     font-family: "ShinMyungjo";
-    src: url("../fonts/SM3신신명조.woff2") format("woff2");
+    src: url("/fonts/SM3신신명조.woff2") format("woff2");
     font-display: block;
     font-weight: 300;
 }
