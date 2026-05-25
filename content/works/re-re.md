@@ -9,11 +9,13 @@ description_kr: |-
 
   지은이: 우수영
   기획 및 편집: 엄선영
+  사진: 최현석
 description_eng: |-
   Re:Re: is a book that weaves together replies and diary-like notes. Written over three years of recovery, the texts are collected from recipientless sentences and carry different times and tones. The designer fragments and reorders them, loosening linear flow so that one day’s last line can meet another day’s first. Colons (:) mark day boundaries and set a quiet rhythm, allowing the reader to begin anywhere. Time moves back and forth as past and present sentences answer each other. It begins with one question: Can “voluntary error” shift perception?
 
   Author: Woo Soo-young
   Planning & Editing: Eom Sun-young
+  Photography: Choi Hyunsuk
 thumbnail: /assets/works/re-re/커버4.webp
 images:
   - /assets/works/re-re/RE RE 2.webp
