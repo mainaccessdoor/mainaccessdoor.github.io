@@ -11,13 +11,13 @@ description_eng: Ruler of the Ruler uses 26 collected rulers as experimental mat
 thumbnail: /assets/works/ruler-of-the-ruler/1.webp
 images:
   - /assets/works/ruler-of-the-ruler/panel.webp
+  - /assets/works/ruler-of-the-ruler/IMG_9038.webp
   - /assets/works/ruler-of-the-ruler/panel11.webp
-  - /assets/works/ruler-of-the-ruler/panel2.webp
-  - /assets/works/ruler-of-the-ruler/panel3.webp
-  - /assets/works/ruler-of-the-ruler/panel4.webp
-  - /assets/works/ruler-of-the-ruler/panel5.webp
-  - /assets/works/ruler-of-the-ruler/panel6.webp
-  - /assets/works/ruler-of-the-ruler/panel7.webp
+  - /assets/works/ruler-of-the-ruler/웹사이트 판넬.webp
+  - /assets/works/ruler-of-the-ruler/웹사이트 판넬2.webp
+  - /assets/works/ruler-of-the-ruler/웹사이트 판넬3.webp
+  - /assets/works/ruler-of-the-ruler/웹사이트 판넬6.webp
   - /assets/works/ruler-of-the-ruler/panel10.webp
   - /assets/works/ruler-of-the-ruler/panel9.webp
+  - /assets/works/ruler-of-the-ruler/IMG_9032.webp
 ---
