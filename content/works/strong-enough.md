@@ -2,7 +2,7 @@
 title: Strong Enough
 date: 2024-05-12T00:00:00
 medium: 이미지 메이킹 Image Making
-dimensions: '0'
+dimensions: ''
 pages: 0
 description_kr: '"Strong Enough!"'
 description_eng: '"Strong Enough!"'
