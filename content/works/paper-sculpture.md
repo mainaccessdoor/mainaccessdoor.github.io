@@ -4,8 +4,8 @@ date: 2026-03-02T14:00:00
 medium: 이미지 메이킹 Image Making
 dimensions: ''
 pages: 0
-description_kr: Marching Dots는 종이 위에 점을 찍는 작업이 아니라, 점을 ‘행진’시키는 규칙을 만드는 일이다. 스탬프의 반복이 리듬을 만들고, 종이는 그 리듬에 반응해 접히고 휘며 형태를 만들어낸다. 인쇄라는 평면의 제스처가 조형의 차원으로 이동하는 과정 자체가 작업의 본체가 된다.
-description_eng: Marching Dots is not about placing dots on paper, but about setting a rule that lets them “march.” Repeated stamping generates a rhythm, and the paper responds by folding and curving into form. The work is the passage of a printed gesture (flat) into sculpture (spatial).
+description_kr: Marching Dots는 점을 ‘그리는’ 작업이 아니라, 점이 움직이게 만드는 규칙을 설계하고 실행하는 작업이다. 스탬프는 표현 도구가 아니라 동일한 단위를 반복하는 장치이고, 반복이 누적되면서 종이는 더 이상 배경이 아니라 변형을 일으키는 매체가 된다. 점의 행렬이 만든 리듬은 종이에 압력과 방향을 축적하고, 그 축적이 접힘과 굽힘으로 번역되며 형태를 발생시킨다.
+description_eng: Marching Dots is not about “drawing” dots on paper, but about designing and carrying out a rule that sets them in motion. The stamp is not an expressive tool but a device for repeating a unit, and as repetition accumulates, the paper shifts from background to an active medium of deformation. The rhythm formed by the marching rows of dots builds up pressure and direction, which translates into folds and bends, generating form.
 thumbnail: /assets/works/paper-sculpture/mainaccessdoor_35807_a_paper_sculpture_with_black_dots_on_a_whi_f8d55a4c-f9d2-4707-8590-e04081a8487c copy.webp
 images:
   - /assets/works/paper-sculpture/mainaccessdoor_35807_a_paper_sculpture_with_black_dots_on_a_whi_4f14ad81-3bcb-4bf5-9b26-e734734a1192 copy.webp
