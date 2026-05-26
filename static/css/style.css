@@ -62,6 +62,7 @@ body {
     word-spacing: -1.2px;*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overscroll-behavior: none;
 }
 
 body {
