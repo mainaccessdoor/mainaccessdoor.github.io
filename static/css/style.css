@@ -381,11 +381,8 @@ main {
         display: block;
     }
 
-    .container.works .left :last-child {
-        margin-bottom: 84px;
-    }
-
-    .container.works .right .images:last-child {
+    .container.works .left :last-child,
+    .container.works .right .images {
         margin-bottom: 84px;
     }
 }
