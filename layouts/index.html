@@ -27,7 +27,7 @@ const previewImage = document.querySelector(".preview-image");
 
 items.forEach(item => {
   item.addEventListener("mouseenter", () => {
-    previewImage.src = item.dataset.thumbnail;
+    previewImage.src = `${item.dataset.thumbnail}`;
     previewImage.classList.add("show");
   });
 
