@@ -54,11 +54,6 @@ body {
     line-height: 1.39;
     letter-spacing: -0.046em;
     word-spacing: -0.092em;
-    /*font-size: 13px;
-    font-weight: 300;
-    line-height: 1.39;
-    letter-spacing: -0.6px;
-    word-spacing: -1.2px;*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overscroll-behavior: none;
@@ -68,9 +63,7 @@ body {
     box-sizing: content-box;
     margin: 0;
     padding: 0;
-    width: 100%;
     max-width: 1920px;
-    height: 100%;
     background: white;
 }
 
@@ -96,7 +89,6 @@ main .right {
 nav {
     height: 100%;
     grid-column: span 2;
-    background: transparent;
 }
 
 p {
@@ -129,12 +121,16 @@ a:hover {
 
 .menus {
     position: sticky;
-    top: 0px;
+    top: 0;
 }
 
 .pages {
     display: flex;
     flex-direction: column;
+}
+
+.pages > a {
+    width: fit-content;
 }
 
 main {
@@ -147,18 +143,8 @@ main {
     gap: 13px;
 }
 
-.container.works > main,
-.container.contact > main {
-    grid-column: span 10;
-    grid-template-columns: repeat(10, 1fr);
-}
-
 .container.about > main {
     grid-column: span 5;
-}
-
-.works-ul {
-    padding-left: 0;
 }
 
 .container.about main,
@@ -175,9 +161,7 @@ main {
 }
 
 .container main .left {
-    height: calc(100dvh - 36px);
     grid-column: span 3;
-    overflow-y: scroll;
 }
 
 .container main .right {
@@ -257,11 +241,6 @@ main {
     }
 }
 
-@media screen and (max-width: 1280px) {
-    .container {
-        gap: 8px;
-    }
-}
 @media screen and (max-width: 768px) {
     .container {
         gap: 5px;
@@ -270,11 +249,6 @@ main {
     nav {
         height: 100%;
         grid-column: span 2;
-    }
-
-    .menus {
-        position: sticky;
-        top: 0px;
     }
 
     main {
@@ -362,10 +336,8 @@ main {
     .container.works .left,
     .container.works .right {
         grid-column: span 5;
-        overflow-y: scroll;
         position: fixed;
         top: 0;
-        /*width: calc(50% - 6px);*/
         padding-top: 58px;
         scrollbar-width: none;
     }
