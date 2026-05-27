@@ -25,8 +25,12 @@
                     </p>
                     {{ end }}<br />{{ if .Params.description_kr }}
                     <p>{{ .Params.description_kr }}</p>
-                    {{ end }}<br />{{ if .Params.description_eng }}
+                    {{ end }}{{ if .Params.etc_kr }}<br />
+                    <p>{{ .Params.etc_kr }}</p>
+                    <br />{{ end }} {{ if .Params.description_eng }}<br />
                     <p>{{ .Params.description_eng }}</p>
+                    {{ end }} {{ if .Params.etc_eng }}<br />
+                    <p>{{ .Params.etc_eng }}</p>
                     {{ end }} {{ .Content }}
                 </div>
                 <div class="right">

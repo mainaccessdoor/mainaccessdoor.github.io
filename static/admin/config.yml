@@ -59,13 +59,21 @@ collections:
         required: false
 
       - name: description_kr
-        label: 국문 설명
+        label: 설명 (국문)
         widget: text
         required: false
 
       - name: description_eng
-        label: 영문 설명
+        label: 설명 (영문)
         widget: text
+        required: false
+
+      - name: etc_kr
+        label: 기타 (국문)
+        required: false
+
+      - name: etc_eng
+        label: 기타 (영문)
         required: false
 
       - name: thumbnail
