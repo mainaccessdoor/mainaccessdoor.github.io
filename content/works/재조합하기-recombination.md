@@ -1,5 +1,5 @@
 ---
-title: 재조합하기 Recombination
+title: 재조합 하기 Recombination
 date: 2024-12-12T11:01:00
 medium: 80칼럼, 130칼럼 연속 용지 도트 매트릭스 인쇄, 가변 설치 80-Column, 130-Column Continuous Paper Dot matrix Printing, Variable Installation
 dimensions: ''
