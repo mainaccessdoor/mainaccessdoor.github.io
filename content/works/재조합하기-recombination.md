@@ -2,7 +2,7 @@
 title: 재조합하기 Recombination
 date: 2024-12-12T11:01:00
 medium: 80칼럼, 130칼럼 연속 용지 도트 매트릭스 인쇄, 가변 설치 80-Column, 130-Column Continuous Paper Dot matrix Printing, Variable Installation
-dimensions: '0'
+dimensions: ''
 pages: 0
 description_kr: |-
   《재조합하기》는 수집과 분류, 해체를 거쳐 남은 시각 요소들을 다시 엮어 하나의 흐름으로 만드는 설치 작업이다. 작업은 그래픽의 기원을 단일한 원본으로 되돌리기보다, 파편들이 서로 만나며 만들어내는 새로운 관계와 배열의 구조에 주목한다. 이 과정에서 이미지들은 더 이상 고정된 출처를 가리키지 않고, 반복·중첩·전이를 통해 다른 맥락 속으로 미끄러진다.
