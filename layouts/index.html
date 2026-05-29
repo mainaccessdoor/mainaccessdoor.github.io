@@ -5,7 +5,7 @@
                 <div class="left">
                     <ul class="works-ul">
                         {{ range sort (where .Site.RegularPages "Section" "works") "Date" "desc" }}
-                        <li data-thumbnail="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+                        <li data-thumbnail="{{ .Params.thumbnail | absURL }}">
                             <a href="{{ .RelPermalink }}">
                                 {{ .Title }}
                             </a>
