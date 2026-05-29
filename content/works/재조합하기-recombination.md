@@ -13,13 +13,13 @@ etc_kr: ''
 etc_eng: ''
 thumbnail: /assets/works/재조합하기-recombination/무제-1.webp
 images:
+  - /assets/works/재조합하기-recombination/IMG_4759.webp
   - /assets/works/재조합하기-recombination/무제-1.webp
   - /assets/works/재조합하기-recombination/IMAG0055.webp
   - /assets/works/재조합하기-recombination/무제-12.webp
+  - /assets/works/재조합하기-recombination/IMG_2996.webp
   - /assets/works/재조합하기-recombination/IMAG0053.webp
   - /assets/works/재조합하기-recombination/IMAG0058.webp
-  - /assets/works/재조합하기-recombination/IMG_2996.webp
-  - /assets/works/재조합하기-recombination/IMG_4759.webp
   - /assets/works/재조합하기-recombination/IMG_4793.webp
   - /assets/works/재조합하기-recombination/전시전경 copy.webp
 ---
