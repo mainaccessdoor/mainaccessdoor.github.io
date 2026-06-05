@@ -18,6 +18,8 @@ buildFuture: true
 uglyURLs: true
 canonifyURLs: true
 
+keepComments: true
+
 markup:
   goldmark:
     renderer:
