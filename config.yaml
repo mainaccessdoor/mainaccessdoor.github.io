@@ -18,7 +18,10 @@ buildFuture: true
 uglyURLs: true
 canonifyURLs: true
 
-keepComments: true
+minify:
+  tdewolff:
+    html:
+      keepComments: true
 
 markup:
   goldmark:
