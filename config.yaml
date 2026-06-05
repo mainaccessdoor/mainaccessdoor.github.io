@@ -11,6 +11,8 @@ baseURL: https://mainaccessdoor.com
 date:
   locale: ko_KR
 
+timeZone: Asia/Seoul
+
 buildFuture: true
 
 uglyURLs: true

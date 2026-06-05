@@ -1,3 +1,7 @@
+<!-- prettier ignore -->
+{{ printf "<!-- Built at %s -->" (now.Format "2006-01-02 15:04:05 MST") |
+safeHTML }}
+<!doctype html>
 <html lang="en">
     {{ partial "head.html" . }}
 
