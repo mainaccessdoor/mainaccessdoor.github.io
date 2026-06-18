@@ -1,5 +1,5 @@
 ---
-title: 허약함을 직조하기 Weaving Frailty Poster
+title: 허약함을 직조하기 Weaving Frailty
 date: 2026-06-17T00:00
 medium: 형광 인쇄 Fluorescent Print, 전시 참여작
 dimensions: 420×594
