@@ -1,6 +1,6 @@
 ---
 title: 허약함을 직조하기 Weaving Frailty
-date: 2026-06-19T00:04
+date: 2025-12-19T12:04
 medium: 형광 인쇄 Fluorescent Print, 전시 참여작
 dimensions: 420×594
 pages: 0
