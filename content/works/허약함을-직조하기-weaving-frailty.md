@@ -1,5 +1,5 @@
 ---
-title: 허약함을 직조하기 Weaving Frailty
+title: 허약함을 직조하기 Weaving Frailty Poster
 date: 2026-06-19
 medium: 형광 인쇄 Fluorescent Print, 전시 참여작
 dimensions: 420×594
@@ -10,7 +10,7 @@ etc_kr: '의뢰: 두성종이, 바인 엑스트라 컬러'
 etc_eng: 'Client: Doosung Paper, Vine Extra Color'
 thumbnail: /assets/works/허약함을-직조하기-weaving-frailty/김승엽_원본.webp
 images:
-  - /assets/works/허약함을-직조하기-weaving-frailty/김승엽_원본.webp
+  - /assets/works/허약함을-직조하기-weaving-frailty/sns 발행(검정배경).webp
   - /assets/works/허약함을-직조하기-weaving-frailty/sns 발행(검정배경)2.webp
   - /assets/works/허약함을-직조하기-weaving-frailty/IMG_2640.webp
 ---
