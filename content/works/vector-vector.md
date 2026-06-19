@@ -16,4 +16,6 @@ images:
   - /assets/works/vector-vector/naming-02.webp
   - /assets/works/vector-vector/Untitled-1-03.webp
   - /assets/works/vector-vector/human grow.webp
+  - /assets/works/vector-vector/teeth-01.webp
+  - /assets/works/vector-vector/thumbnail2.webp
 ---
