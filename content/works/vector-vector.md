@@ -1,7 +1,7 @@
 ---
 title: Vector Vector
 date: 2023-08-08
-medium: Image Making
+medium: 이미지 메이킹 Image Making
 dimensions: 가변 크기, Variable Size
 pages: 0
 description_kr: 벡터를 활용한 조형, 질감 탐구.
