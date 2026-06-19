@@ -1,6 +1,6 @@
 ---
 title: 허약함을 직조하기 Weaving Frailty
-date: 2025-12-19T12:04
+date: 2025-12-19
 medium: ''
 dimensions: 420×594
 pages: 0
