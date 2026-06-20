@@ -196,6 +196,11 @@ main {
     opacity: 1;
 }
 
+.images {
+    display: flex;
+    flex-direction: column;
+}
+
 .big-image {
     position: fixed;
     top: 0;
