@@ -2,19 +2,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
-    <meta name="title" content="mainaccessdoor" />
-    <meta
-        name="description"
-        content="Kim Seungyeop (mainaccessdoor) is a graphic designer. He thinks about making relationships through arranging, juxtaposing, and combining."
-    />
-    <meta property="og:title" content="mainaccessdoor" />
-    <meta
-        property="og:description"
-        content="Kim Seungyeop (mainaccessdoor) is a graphic designer. He thinks about making relationships through arranging, juxtaposing, and combining."
-    />
-    <meta property="og:image" content="/assets/logo.jpg" />
+    {{ $metatag := site.GetPage "/metatag" }}
+
+    <meta name = "title" content = "{{ $metatag.Params.title }}" />
+    <meta name="description" content = "{{ $metatag.Params.description }}" />
+    <meta name = "og:title" content = "{{ $metatag.Params.title }}" />
+    <meta name="og:description" content = "{{ $metatag.Params.description }}" />
+    <meta property="og:image" content="{{ $metatag.Params.image }}" />
+
+    <link rel="icon" type="image/x-icon" href="{{ $metatag.Params.favicon }}" />
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
     <link
         rel="preload"
         href="/fonts/Director-Regular.woff2"

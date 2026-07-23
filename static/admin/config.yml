@@ -88,3 +88,33 @@ collections:
         widget: file
         multiple: true
         required: true
+
+  - name: metatag
+    label: 메타태그
+    files:
+      - name: metatag
+        label: 메타태그
+        file: content/metatag.md
+        fields:
+          - label: 제목
+            name: title
+            widget: string
+            required: true
+            hint: "링크 제목"
+
+          - label: 설명
+            name: description
+            widget: string
+            required: true
+            hint: "링크 설명"
+
+          - label: 사진
+            name: image
+            widget: image
+            required: false
+            hint: "링크 미리보기 사진"
+
+          - label: 파비콘
+            name: favicon
+            widget: image
+            required: false
