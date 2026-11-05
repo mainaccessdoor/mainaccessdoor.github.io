@@ -6,21 +6,17 @@
             <main>
                 <ul>
                     <li>
-                        <p>
-                            <a href="mailto:{{ .Params.email.address }}">
-                                {{ .Params.email.text }}
-                            </a>
-                        </p>
+                        <a href="mailto:{{ .Params.email.address }}">
+                            {{ .Params.email.text }}
+                        </a>
                     </li>
 
                 
                 {{ range .Params.sns }}
                     <li>
-                        <p>
-                            <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-                                {{ .text }}
-                            </a>
-                        </p>
+                        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                            {{ .text }}
+                        </a>
                     </li>
                 {{ end }}
                 </ul>
