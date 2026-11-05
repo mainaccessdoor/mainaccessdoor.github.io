@@ -1,16 +1,10 @@
 ---
-  title: "contact"
-  type: "page"
-  showDate: false
-  showTitle: false
+title: Contact
+layout: contact
+email:
+   text: "Email"
+   address: "mainaccessdoor@gmail.com"
+sns:
+  - text: "Instagram"
+    url: "https://www.instagram.com/mainaccessdoor/"
 ---
-<ul>
-        <li>
-            <a href="mailto:mainaccessdoor@gmail.com">Email</a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/mainaccessdoor/" target="_blank"
-                >Instagram</a
-            >
-        </li>
-</ul>

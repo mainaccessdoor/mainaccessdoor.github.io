@@ -88,6 +88,36 @@ collections:
         widget: file
         multiple: true
         required: true
+        
+  - name: contact
+    label: Contact
+    files:
+      - name: contact
+        label: Contact
+        file: content/contact.md
+        fields:
+          - label: Email
+            name: email
+            widget: object
+            fields:
+              - label: Text
+                name: text
+                widget: string
+              - label: Address
+                name: address
+                widget: string
+
+          - label: SNS
+            name: sns
+            hint: "SNS 또는 추가하고 싶은 웹사이트, 순서는 각 리스트 상단의 = 기호를 드래그하여 변경해 주세요."
+            widget: list
+            fields:
+              - label: Text
+                name: text
+                widget: string
+              - label: URL
+                name: url
+                widget: string
 
   - name: metatag
     label: 메타태그

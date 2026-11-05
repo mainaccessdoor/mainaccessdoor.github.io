@@ -1,0 +1,30 @@
+<html lang="en">
+    {{ partial "head.html" . }}
+    <body>
+        <div class="container contact">
+            {{ partial "nav.html" . }}
+            <main>
+                <ul>
+                    <li>
+                        <p>
+                            <a href="mailto:{{ .Params.email.address }}">
+                                {{ .Params.email.text }}
+                            </a>
+                        </p>
+                    </li>
+
+                
+                {{ range .Params.sns }}
+                    <li>
+                        <p>
+                            <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                                {{ .text }}
+                            </a>
+                        </p>
+                    </li>
+                {{ end }}
+                </ul>
+            </main>
+        </div>
+    </body>
+</html>
