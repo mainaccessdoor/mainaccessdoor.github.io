@@ -2,10 +2,9 @@
 {{ printf "<!-- Built at %s -->" ((now | time.In "Asia/Seoul") | time.Format
 "2006-01-02 15:04:05 MST") | safeHTML }}
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     {{ partial "head.html" . }}
-
     <body>
         <div class="container {{ .Section }}">
             {{ partial "nav.html" . }}
